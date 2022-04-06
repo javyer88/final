@@ -1,0 +1,26 @@
+//fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+$fontMain: 'roboto', sans-serif;
+
+//variables textos
+
+
+// $textXl: 4em;
+// $textLg: 3em;
+// $textMd: 2em;
+// $textSm: 1em;
+
+ 
+h1{
+ 	@include texto(3em, 1.4em,black);
+ }
+h2{
+	@include texto(2em, 1.4em,rgba(48, 84, 250, .5));
+
+	 }
+ul li a{
+	@include texto(1.5em, 1.4em,black);
+}
+

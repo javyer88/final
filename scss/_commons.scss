@@ -1,0 +1,33 @@
+// //variables
+
+$mainColor: rgba(253,239,247, .8);
+ $secondaryColor: rgba(253,239,247, 1);
+ $footcolor: rgba(48, 84, 250, .5);
+
+
+
+
+//sizing
+
+$w-100: 100%;
+$w-50: 50%; 
+
+@mixin texto ($font-size, $line-height, $color ){
+	font-size:$font-size;
+	line-height:$line-height;
+	color:$color;
+}
+ 
+@mixin flex($align, $justify){
+	display: flex;
+	justify-content: $justify ;
+	align-items: $align ;
+}
+
+$paleta:(
+	'uno': rgba(253,239,247, .8),
+	'dos': rgba(253,239,247, 1),
+	'tres': rgba(48, 84, 250, .5),
+
+	);
+
