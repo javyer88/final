@@ -4,14 +4,6 @@
 
 $fontMain: 'roboto', sans-serif;
 
-//variables textos
-
-
-// $textXl: 4em;
-// $textLg: 3em;
-// $textMd: 2em;
-// $textSm: 1em;
-
  
 h1{
  	@include texto(3em, 1.4em,black);
@@ -24,3 +16,20 @@ ul li a{
 	@include texto(1.5em, 1.4em,black);
 }
 
+a{ 	animation-name: textAlpha;
+	animation-duration: 2s;
+}
+.transition{
+	width: 100% ;
+	transition: width;
+	transition: 1s;
+}
+
+.transition:hover{
+	width: 30px;
+	cursor: pointer;
+}
+.scale:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+	transition: 3s;

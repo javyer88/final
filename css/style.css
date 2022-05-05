@@ -3,6 +3,12 @@
   padding: 0;
   margin: 0; }
 
+@keyframes textAlpha {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
 h1 {
   font-size: 3em;
   line-height: 1.4em;
@@ -17,6 +23,10 @@ ul li a {
   font-size: 1.5em;
   line-height: 1.4em;
   color: black; }
+
+a {
+  animation-name: textAlpha;
+  animation-duration: 2s; }
 
 .botonera {
   background-color: rgba(253, 239, 247, 0.8);
@@ -44,7 +54,16 @@ body {
   text-align: center;
   width: 100%; }
 
+footer h4 {
+  font-size: 2em;
+  line-height: 0.8em;
+  color: white; }
+
+ul li a {
+  animation-name: textAlpha;
+  animation-duration: 2s; }
+
 footer {
-  background-color: rgba(48, 84, 250, 0.5);
+  background-color: #ee119b;
   text-align: center;
   width: 100%; }
